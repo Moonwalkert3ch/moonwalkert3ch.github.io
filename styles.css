@@ -1,1 +1,763 @@
+body {
+    width: auto;
+    height: auto;
+}
 
+header {
+    background-image: url('images/background.png'); 
+    background-blend-mode: normal, color;
+    width: auto;
+    height: 1793px;
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: relatve;
+    background-repeat: no-repeat;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.logo-properties {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    margin: 15px;
+    padding-left: 15%;
+}
+
+.logo-properties img {
+    width: 167.016px;
+    height:29.461px;
+    flex-shrink: 0;
+    color: #FFFFFF;
+}
+
+header menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    padding-left: 90px;
+    margin-right: 15px;
+    justify-content: right;
+    word-spacing: 60px;
+    position: absolute;
+    top: 15px;
+    margin-left: 1700px;
+}
+
+menu {
+    display: flex;
+    list-style: none;
+    margin-right: 30%;
+}
+
+menu a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px; 
+}
+
+menu a:hover {
+    text-decoration: none;
+}
+
+main section div h1 {
+    color: #FFFFFF;
+    font-family: "Source Sans Pro";
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    top: 320px;
+    margin-left: 620px;
+}
+
+.advertise p {
+    color: #FFFFFF;
+    font-family: "Source Sans Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    top: 570px;
+    margin-left: 960px;
+    justify-content: space-evenly;
+    word-spacing: 50px;
+    position: absolute;
+}
+
+main section div button {
+    border-radius: 22px;
+    background: #C271FF;
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+    text-align: center;
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    top: 660px;
+    margin-left: 1000px;
+    position: absolute;
+}
+
+main section div h2 {
+    color: #FFFFFF;
+    font-family: "Source Sans Pro";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: absolute;
+    white-space: nowrap;
+    top: -730px;
+    margin-left: 1000px;
+}
+
+.smile-winners b {
+    color: #C271FF;
+}
+
+.smile-winners {
+    position: absolute;
+}
+
+.round-photo1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    overflow: hidden;
+    position: absolute;
+    top: -555px;
+    margin-left: 350px;
+}
+
+.round-photo1 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.round-photo2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    overflow: hidden;
+    position: absolute;
+    top: -555px;
+    margin-left: 800px;
+}
+
+.round-photo2 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.round-photo3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    overflow: hidden;
+    position: absolute;
+    top: -555px;
+    margin-left: 1250px;
+}
+
+.round-photo3 img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.round-photo4 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    overflow: hidden;
+    top: -555px;
+    margin-left: 1700px;
+    position: absolute;
+}
+
+main section div .advertise .name1 h3 {
+    color: #FFFFFF;
+    position: absolute;
+    font-family: "Source Sans Pro";
+    font-size: medium;
+    line-height: normal;
+    bottom: 0;
+    z-index: 10;
+}
+
+.round-photo .name1 p {
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0px;
+    font-family: "Source Sans Pro";
+}
+
+.purple-background {
+    background-color: #C271FF;
+    width: 100%;
+    height: 570px;
+    position: relative;
+    align-content: center;
+}
+
+.quote-box {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 40%;
+    left: 400px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quote-box img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    flex-shrink: 0;
+}
+
+.quote blockquote p {
+    color: blue;
+    position: absolute;
+    font-family: "Source Sans Pro";
+    top: 20%;
+    width: 500px;
+    text-wrap: wrap;
+    margin: 0;
+}
+
+.video-block {
+    width: 100%;
+    height: 750px;
+    background-color: #FFFFFF;
+}
+
+.video-block h1 {
+    color: black;
+    position: absolute;
+    top: 2450px;
+    margin-left: 1050px;
+    font-family: "Source Sans Pro";
+    font-size: xx-large;
+}
+.video-block h1 b {
+    color: #C271FF;
+}
+
+.diagonal-smile img {
+    width: 255px;
+    height: 154;
+}
+
+.diagonal-smile {
+    width: 150%
+    height: 150%;
+    position: absolute;
+    top: 2600px;
+    margin-left: 350px;
+}
+
+.video-block .diagonal-smile h2 {
+    position: absolute;
+    top: 150px;
+    margin-left: 25px;
+    color: black;
+    font-size: x-large;
+    font-family: "Source Sans Pro";
+}
+
+.diagonal-smile p {
+    text-wrap: wrap;
+    width: 300px;
+    position: absolute;
+    top: 190px;
+}
+
+.diagonal-smile .author-block img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 270px;
+}
+
+.diagonal-smile .author-block h3 {
+    position: absolute;
+    top: 260px;
+    margin-left: 45px;
+    color: #C271FF;
+}
+
+.diagonal-smile .stars img {
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    top: 310px;
+}
+
+.diagonal-smile .stars p {
+    position: absolute;
+    color: #C271FF;
+    top: 305px;
+    margin-left: 199px;
+}
+
+.sad-smile img {
+    width: 255px;
+    height: 154;
+}
+
+.sad-smile {
+    width: 150%
+    height: 150%;
+    position: absolute;
+    top: 2600px;
+    margin-left: 650px;
+}
+
+.video-block .sad-smile h2 {
+    position: absolute;
+    top: 150px;
+    margin-left: 25px;
+    color: black;
+    font-size: x-large;
+    font-family: "Source Sans Pro";
+}
+
+.sad-smile h3 {
+    position: absolute;
+    top: 260px;
+    margin-left: 45px;
+    color: #C271FF;
+}
+
+.sad-smile .stars img {
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    top: 310px;
+}
+
+.sad-smile p {
+    text-wrap: wrap;
+    width: 300px;
+    position: absolute;
+    top: 190px;
+}
+
+.sad-smile .author-block img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 270px;
+}
+
+.sad-smile .stars p {
+    position: absolute;
+    color: #C271FF;
+    top: 305px;
+    margin-left: 199px;
+}
+
+.natural-smile {
+    width: 150%
+    height: 150%;
+    position: absolute;
+    top: 2600px;
+    margin-left: 950px;
+}
+
+.natural-smile h3 {
+    position: absolute;
+    top: 260px;
+    margin-left: 45px;
+    color: #C271FF;
+}
+
+.video-block .natural-smile h2 {
+    position: absolute;
+    top: 150px;
+    margin-left: 25px;
+    color: black;
+    font-size: x-large;
+    font-family: "Source Sans Pro";
+}
+
+.natural-smile p {
+    text-wrap: wrap;
+    width: 300px;
+    position: absolute;
+    top: 190px;
+}
+
+.natural-smile .stars img {
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    top: 310px;
+}
+
+.natural-smile .author-block img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 270px;
+}
+
+.natural-smile .stars p {
+    position: absolute;
+    color: #C271FF;
+    top: 305px;
+    margin-left: 199px;
+}
+
+.happy-smile {
+    width: 150%
+    height: 150%;
+    position: absolute;
+    top: 2600px;
+    margin-left: 1250px;
+}
+
+.happy-smile h3 {
+    position: absolute;
+    top: 260px;
+    margin-left: 45px;
+    color: #C271FF;
+}
+
+.video-block .happy-smile h2 {
+    position: absolute;
+    top: 150px;
+    margin-left: 25px;
+    color: black;
+    font-size: x-large;
+    font-family: "Source Sans Pro";
+}
+
+.happy-smile p {
+    text-wrap: wrap;
+    width: 300px;
+    position: absolute;
+    top: 190px;
+}
+
+.happy-smile .stars img {
+    width: 170px;
+    height: 30px;
+    position: absolute;
+    top: 310px;
+}
+
+.happy-smile .author-block img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 270px;
+}
+
+.happy-smile .stars p {
+    position: absolute;
+    color: #C271FF;
+    top: 305px;
+    margin-left: 199px;
+}
+
+.membership-block {
+    width: 100%;
+    height: 650px;
+    background-color: #071629;
+}
+
+.membership-block h1 {
+    color: #FFF;
+    position: absolute;
+    top: 3150px;
+    margin-left: 1050px;
+    font-family: "Source Sans Pro";
+    font-size: xx-large;
+}
+
+.membership-block h1 b {
+    color: #C271FF;
+}
+
+.column-one img {
+    width: 44px;
+    height: 36px;
+    position: absolute;
+    top: 3350px;
+    margin-left: 250px;
+}
+
+.column-one h2 {
+    position: absolute;
+    top: 3400px;
+    margin-left: 220px;
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: large;
+}
+
+.column-one p {
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: medium;
+    position: absolute;
+    top: 3450px;
+    margin-left: 190px;
+    width: 250px;
+}
+
+.column-two img {
+    width: 44px;
+    height: 36px;
+    position: absolute;
+    top: 3350px;
+    margin-left: 750px;
+}
+
+.column-two h2 {
+    position: absolute;
+    top: 3400px;
+    margin-left: 720px;
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: large;
+}
+
+.column-two p {
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: medium;
+    position: absolute;
+    top: 3450px;
+    margin-left: 700px;
+    width: 250px;
+}
+
+.column-three img {
+    width: 44px;
+    height: 36px;
+    position: absolute;
+    top: 3350px;
+    margin-left: 1150px;
+}
+
+.column-three h2 {
+    position: absolute;
+    top: 3400px;
+    margin-left: 1120px;
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: large;
+}
+
+.column-three p {
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: medium;
+    position: absolute;
+    top: 3450px;
+    margin-left: 1090px;
+    width: 250px;
+}
+
+.column-four img {
+    width: 44px;
+    height: 36px;
+    position: absolute;
+    top: 3350px;
+    margin-left: 1550px;
+}
+
+.column-four h2 {
+    position: absolute;
+    top: 3400px;
+    margin-left: 1520px;
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: large;
+}
+
+.column-four p {
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: medium;
+    position: absolute;
+    top: 3450px;
+    margin-left: 1490px;
+    width: 250px;
+}
+
+.membership-block button {
+    border-radius: 22px;
+    background: #C271FF;
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+    text-align: center;
+    color: #FFF;
+    font-family: "Source Sans Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    top: 3650px;
+    margin-left: 1100px;
+}
+
+.FAQ-block {
+    width: 100%;
+    height: 1350px;
+    background-color: #FFFFFF;
+}
+
+.FAQ-block h1 {
+    top: 3700px;
+    margin-left: 1025px;
+    color: black;
+    font-family: "Source Sans Pro";
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    position: absolute;
+    width: 136rem;
+    height: 75rem;
+}
+
+.article-column-one h3 {
+    color: black;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    position: absolute;
+    top: 4025px;
+    margin-left: 500px;
+    font-size: 24px;
+}
+
+.article-column-one p {
+    color: black;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    position: absolute;
+    font-weight: 50px;
+    width: 400px;
+    height: 400px;
+    top: 4070px;
+    margin-left: 500px;
+    word-spacing: 10px;
+}
+
+.article-column-two h3 {
+    color: black;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    position: absolute;
+    top: 4025px;
+    margin-left: 1600px;
+    font-size: 24px;
+}
+
+.article-column-two p {
+    color: black;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    position: absolute;
+    font-weight: 50px;
+    width: 400px;
+    top: 4070px;
+    margin-left: 1600px;
+    word-spacing: 10px;
+}
+
+.article-column-three h3 {
+    color: black;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    position: absolute;
+    top: 4750px;
+    margin-left: 500px;
+    font-size: 24px;
+}
+
+.article-column-three p {
+    color: black;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    position: absolute;
+    font-weight: 50px;
+    width: 400px;
+    top: 4800px;
+    margin-left: 500px;
+    word-spacing: 10px;
+}
+
+.article-column-four h3 {
+    color: black;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    position: absolute;
+    top: 4750px;
+    margin-left: 1600px;
+    font-size: 24px;
+}
+
+.article-column-four p {
+    color: black;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    position: absolute;
+    font-weight: 50px;
+    width: 400px;
+    top: 4800px;
+    margin-left: 1600px;
+    word-spacing: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: #071629;
+}
+
+.logo-foot img {
+    width: 167.016px;
+    height:29.461px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 5350px;
+    margin-left: 450px;
+}
+
+.fav-icons img {
+    width: 167.016px;
+    height:29.461px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 5350px;
+    margin-left: 1850px;
+}
+
+.copyright {
+    color: #FFF;
+    position: absolute;
+    top: 5500px;
+    margin-left: 1150px;
+}
